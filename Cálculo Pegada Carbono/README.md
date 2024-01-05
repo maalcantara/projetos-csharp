@@ -8,6 +8,6 @@ O projeto calcula a quantidade de dióxido de carbono (CO2) emitida anualmente p
 
 🚨Curiosidade: A pegada de carbono é uma medida da quantidade de dióxido de carbono (CO2) e outros gases de efeito estufa liberados na atmosfera devido às atividades diárias
 
-### Saída do projeto:
+## Saída do projeto:
 
 ![terminal do código executado](saida.png)
