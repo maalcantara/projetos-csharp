@@ -27,8 +27,7 @@ class Program
       Console.WriteLine($"{nome}, sua pegada de carbono é de {pegadaDeCarbono:F2} toneladas de CO2 por ano. 🌫️");
 
       // Aguarda a entrada do usuário antes de encerrar o programa:
-      Console.WriteLine("Digite 'enter' para sair do programa.");
-      Console.ReadLine();
+      Console.WriteLine("Aperte a tecla 'enter' para sair do programa.");
     }
     catch (FormatException)
     {
