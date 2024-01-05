@@ -1,6 +1,6 @@
 # Cálculo da Pegada de Carbono emitida por pessoa 🌫️
 
-O projeto calcula a quantidade de dióxido de carbono (CO2) emitida anualmente por uma pessoa com base em seu estilo de vida. O cálculo considera a distância percorrida, o uso de eletrônicos e o consumo de refeições com carne.
+O projeto calcula a quantidade anual de dióxido de carbono (CO2) emitida anualmente por uma pessoa com base em seu estilo de vida. O cálculo considera a distância percorrida, o uso de eletrônicos e o consumo de refeições com carne.
 
 ##
 
