@@ -2,6 +2,7 @@
 
 #### Projetos e códigos desenvolvidos durante meus estudos de csharp.
 
-| Projeto                                                                                                            | Descrição                                                                            |
-| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
-| [Calculo Pegada Carbono](https://github.com/maalcantara/projetos-csharp/tree/main/C%C3%A1lculo%20Pegada%20Carbono) | Código C# que calcula a emissão de CO2 de uma pessoa com base em seu estilo de vida. |
+| Projeto                                                                                                            | Descrição                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| [Calculo Pegada Carbono](https://github.com/maalcantara/projetos-csharp/tree/main/C%C3%A1lculo%20Pegada%20Carbono) | Código C# que calcula a emissão de CO2 de uma pessoa com base em seu estilo de vida.                    |
+| [Catálogo de Jogos](https://github.com/maalcantara/projetos-csharp/tree/main/Cat%C3%A1logo%20de%20Jogos)           | Código C# que permite a adição da quantidade de jogos e seus nomes, exibindo um resumo com esses dados. |
