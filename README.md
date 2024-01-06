@@ -2,8 +2,12 @@
 
 #### Projetos e códigos desenvolvidos durante meus estudos de csharp.
 
-| Projeto                                                                                                                | Descrição                                                                                               |
-| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| [Calculo Pegada Carbono](https://github.com/maalcantara/projetos-csharp/tree/main/C%C3%A1lculo%20Pegada%20Carbono)     | Código C# que calcula a emissão de CO2 de uma pessoa com base em seu estilo de vida.                    |
-| [Catálogo de Jogos](https://github.com/maalcantara/projetos-csharp/tree/main/Cat%C3%A1logo%20de%20Jogos)               | Código C# que permite a adição da quantidade de jogos e seus nomes, exibindo um resumo com esses dados. |
-| [Controle Velocidade Robô](https://github.com/maalcantara/projetos-csharp/tree/main/Controle%20Velocidade%20Rob%C3%B4) | Código C# que permite controla a velocidade com base em comandos fornecidos pelo user.                  |
+| Projeto 👾                                                                                                             | Descrição 🤖                                                                                            | Conceitos ✅           |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------- |
+| [Conceitos Básicos](https://github.com/maalcantara/projetos-csharp/tree/main/Conceitos%20B%C3%A1sicos)                 | Conceitos primordiais e como instanciá-los em C#.                                                       | Fila, Pilha e Loops    |
+| [Cadastro Pessoa](https://github.com/maalcantara/projetos-csharp/tree/main/Cadastro%20Pessoa)                          | Escrever resumo.                                                                                        | Orientação a objetos   |
+| [Calculo Pegada Carbono](https://github.com/maalcantara/projetos-csharp/tree/main/C%C3%A1lculo%20Pegada%20Carbono)     | Código C# que calcula a emissão de CO2 de uma pessoa com base em seu estilo de vida.                    | Manipular funções      |
+| [Catálogo de Jogos](https://github.com/maalcantara/projetos-csharp/tree/main/Cat%C3%A1logo%20de%20Jogos)               | Código C# que permite a adição da quantidade de jogos e seus nomes, exibindo um resumo com esses dados. | Array e Listas         |
+| [Controle Velocidade Robô](https://github.com/maalcantara/projetos-csharp/tree/main/Controle%20Velocidade%20Rob%C3%B4) | Código C# que permite controlar a velocidade com base em comandos fornecidos pelo usuário.              | Propriedades e Métodos |
+| [Criar Personagem RPG](pegarlink)                                                                                      | Escrever resumo.                                                                                        | Métodos e Construtores |
+| [Batalha RPG](pegarlink)                                                                                               | Escrever resumo.                                                                                        | Herança e Subclasses   |
