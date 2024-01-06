@@ -2,7 +2,7 @@
 
 #### Projetos e códigos desenvolvidos durante meus estudos de csharp.
 
-| Projeto 👾                                                                                                             | Descrição 🤖                                                                                            | Conceitos ✅           |
+| Programa 👾                                                                                                            | Descrição 🤖                                                                                            | Conceitos ✅           |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ---------------------- |
 | [Conceitos Básicos](https://github.com/maalcantara/projetos-csharp/tree/main/Conceitos%20B%C3%A1sicos)                 | Conceitos primordiais e como instanciá-los em C#.                                                       | Fila, Pilha e Loops    |
 | [Cadastro Pessoa](https://github.com/maalcantara/projetos-csharp/tree/main/Cadastro%20Pessoa)                          | Escrever resumo.                                                                                        | Orientação a objetos   |
