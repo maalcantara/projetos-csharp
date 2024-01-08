@@ -8,6 +8,6 @@ O código cria um catálogo de games, permitindo que o usuário adicione uma qua
 
 ✅ Esses dados são armazenados em um array, e o loop `for` facilita essa adição. Após a conclusão, é exibido um resumo indicando a quantidade total de jogos adicionados e seus respectivos nomes.
 
-## Saída do projeto:
+## Saída do programa:
 
 ![terminal do código executado](saida.png)
