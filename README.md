@@ -2,6 +2,8 @@
 
 #### Projetos e códigos desenvolvidos durante meus estudos de csharp.
 
+![teminal fofinho](SistemaEstacionamento/images/terminal1.png)
+
 | Programa 👾                                                                                                            | Descrição 🤖                                                                                             | Conceitos ✅                          |
 | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | [Conceitos Básicos](https://github.com/maalcantara/projetos-csharp/tree/main/Conceitos%20B%C3%A1sicos)                 | Conceitos primordiais e como instanciá-los em C#.                                                        | Fila, Pilha e Loops                   |
