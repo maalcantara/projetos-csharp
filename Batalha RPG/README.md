@@ -2,7 +2,7 @@
 
 Em jogos de RPG, os personagens frequentemente possuem subclasses que representam especializações, como por exemplo, "mago", "guerreiro", etc.
 
-🧚Este programa possui duas classes: "Personagem" e "Especializacoes", onde uma herda atributps da outra.
+🧚Este programa possui duas classes: "Personagem" e "Especializacoes", onde uma herda atributos da outra.
 
 ![](battle.png)
 
