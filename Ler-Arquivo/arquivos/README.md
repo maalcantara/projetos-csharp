@@ -14,4 +14,4 @@ Código que realiza a leitura de um arquivo txt e retorna no terminal os caracte
 
 ### Saída no terminal:
 
-![saida do programa no terminal](Ler-Arquivo\arquivos\terminal.png)
+![saida do programa no terminal](terminal.png)
