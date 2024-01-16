@@ -1,0 +1,7 @@
+# Arquivos de debug
+
+SistemaEstacionamento/bin/*
+SistemaEstacionamento/obj/*
+
+testes/bin/*
+testes/obj/debug/*
