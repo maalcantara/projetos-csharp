@@ -14,7 +14,8 @@
 | [Ler Arquivo](https://github.com/maalcantara/projetos-csharp/tree/main/Ler-Arquivo)                                    | Código C# que usa exeptions para a leitura de um arquivo txt externo.                                            | Try, Catch e Throw                       |
 | [Sistema Estacionamento](https://github.com/maalcantara/projetos-csharp/tree/main/SistemaEstacionamento)               | Projeto C# que implementa um Sistema de Estacionamento com funcionalidades gerenciadas pelo terminal.            | Orientação a objetos, loops e métodos    |
 | [Gerenciamento Celular](https://github.com/maalcantara/projetos-csharp/tree/main/Gerenciamento%20Celular)              | Projeto C# que implementa um Sistema de cadastro de Smartphones seguindo os principios poo.                      | Orientação a objetos e classes abstratas |
-| [Testes Unitários](https://github.com/maalcantara/projetos-csharp/tree/main/Testes%20Unit%C3%A1rios)                   | Projeto C# que implementa validaçoes e testes unitários em suas classes através da extenção Solutions do VScode. | Testes Unitários xunit                   |
+| [Testes Unitários](https://github.com/maalcantara/projetos-csharp/tree/main/Testes%20Unit%C3%A1rios)                   | Projeto C# que implementa validações e testes unitários em suas classes através da extenção Solutions do VScode. | Testes Unitários xunit                   |
+| [Testes Unitários 2](https://github.com/maalcantara/projetos-csharp/tree/main/Testes%20Unit%C3%A1rios)                 | Projeto C# que implementa mais validações e testes unitários em listas de arrays e strings.                      | Testes Unitários xunit                   |
 
 ##
 
