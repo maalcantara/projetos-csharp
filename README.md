@@ -17,7 +17,7 @@
 | [Gerenciamento Celular](https://github.com/maalcantara/projetos-csharp/tree/main/Gerenciamento%20Celular)              | Projeto C# que implementa um Sistema de cadastro de Smartphones seguindo os principios poo.                      | Orientação a objetos e classes abstratas |
 | [Testes Unitários](https://github.com/maalcantara/projetos-csharp/tree/main/Testes%20Unit%C3%A1rios)                   | Projeto C# que implementa validações e testes unitários em suas classes através da extenção Solutions do VScode. | Testes Unitários xunit                   |
 | [Testes Unitários 2](https://github.com/maalcantara/projetos-csharp/tree/main/Testes%20Unit%C3%A1rios)                 | Projeto C# que implementa mais validações e testes unitários em listas de arrays e strings.                      | Testes Unitários xunit                   |
-| [Serialização]()                                                                                                       | Código C# realiza a serialização de um objeto (classe) em formato JSON para a sua exportação.                    | Nuget, Serialização e Atributos          |
+| [Serialização](https://github.com/maalcantara/projetos-csharp/tree/main/Serializa%C3%A7%C3%A3o)                        | Código C# realiza a serialização de um objeto (classe) em formato JSON para a sua exportação.                    | Nuget, Serialização e Atributos          |
 
 ##
 
