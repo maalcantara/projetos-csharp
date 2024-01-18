@@ -71,3 +71,44 @@ finally
 {
   Console.WriteLine("Programa rodou e esta sendo finalizado!");
 }
+
+// Criação de Tupla
+(int ID, string Nome, string Sobrenome) = tupla (1, "Mariana", "Alcantara");
+
+// Criação de Tupla em Método
+public (bool Sucesso, string[] Linhas, int QuantLinhas) LerArquivo(string caminho)
+{
+  try
+  {
+    string[] linhas = File.ReadAllLines(caminho);
+    return (true, linhas, linhas.Count()); // retornar 3 infos de acordo com a tupla
+  }
+  catch (Exception)
+  {
+    return (false, new string[0], 0);
+  }
+}
+
+//  deconstrutor -> separa objetos
+public Pessoa(string nome, string sobrenome)
+{
+  Nome = nome;
+  Sobrenome = sobrenome;
+}
+public void Deconstruct(out string nome, out string sobrenome)
+{
+  nome = Nome;
+  sobrenome = Sobrenome;
+}
+
+// IF Ternário
+int num = 15;
+
+if (num % 2 == 0)
+  Console.WriteLine($"O numero {num} é par.");
+else
+  Console.WriteLine($"O numero {num} é impar.");
+
+// if ternario
+ehPar = numero % 2 == 0;
+Console.WriteLine($"O número {num} é" + (ehPAr ? "par" : "impar"));;
