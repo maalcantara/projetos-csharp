@@ -1,0 +1,14 @@
+[ 
+  {
+    "Id": 1,
+    "Nome_Produto": "Grampeador",
+    "Preco": 25.00,
+    "DataVenda": "2024-01-18T08:58:57.3156569-03:00"
+  },
+  {
+    "Id": 2,
+    "Nome_Produto": "Licença de Software",
+    "Preco": 110.00,
+    "DataVenda": "2024-01-18T08:58:57.3156569-03:00"
+  }
+]
