@@ -1,5 +1,6 @@
 using Models;
 using Newtonsoft.Json;
+using System.IO;
 
 // IMPORTAR EM JSON -> DESERIALIZE OBJECT
 
@@ -9,11 +10,9 @@ List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoArqu
 
 foreach (Venda venda in listaVenda)
 {
-  Console.WriteLine($"Id: {venda.Id},\n
-                    Produto: { venda.Produto},\n
-                    Preço: { venda.Preco},\n
-                    Data: { venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}
-  ")
+  Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, " +
+                    $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}, " +
+                    $"Desconto: {(venda.Desconto.HasValue ? $"-R${venda.Desconto}" : "Sem desconto")}");
 }
 
 
