@@ -23,6 +23,12 @@ Processo inverso da serialização, consiste em importar o arquivo JSON, entende
 
 **Atributo:** refere-se a uma chave ou nome associado a um valor dentro de um objeto JSON.
 
+## Tipos Especiais → Null Type ❓
+
+O valor null (nulo) é um valor vazio. Para declarar uma variável que pode receber um valor nulo, adicionar **?** no tipo da variável. Exemplo: `public decimal? valor`.
+
+- No programa de exemplo, há uma propriedade no json que pode ou não receber um valor. Dessa forma, o construtor desta prop tem `?` para indicar que essa variável pode receber um valo nulo. Na linha **15** do arquivo `Program.cs` há um operador ternário para identificar se essa propriedade possui um valor e caso positivo, mostrá-lo no terminal.
+
 ## Documentações 📄
 
 **Biblioteca Newtonsoft.Json:** https://learn.microsoft.com/pt-br/dotnet/standard/serialization/
