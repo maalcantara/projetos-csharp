@@ -76,7 +76,7 @@ Essa modificação/cópia está errada, pois em tipos complexos, se você altera
 
 ## Documentação 📄
 
-https://dev.to/gweaths/c-stack-heap-6j6#:~:text=The%20Stack%20is%20the%20part,Value%20type%20and%20Reference%20types.
+<a target="_blank" href="https://dev.to/gweaths/c-stack-heap-6j6#:~:text=The%20Stack%20is%20the%20part,Value%20type%20and%20Reference%20types.">https://dev.to/gweaths/c-stack-heap-6j6#:~:text=The%20Stack%20is%20the%20part,Value%20type%20and%20Reference%20types.</a>
 
 https://andresantarosa.medium.com/heap-stack-e-garbage-collector-um-guia-pr%C3%A1tico-para-o-gerenciamento-de-mem%C3%B3ria-no-net-3faf6c4cd0ed
 
