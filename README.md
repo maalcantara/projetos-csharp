@@ -18,7 +18,8 @@
 | [Testes Unitários](https://github.com/maalcantara/projetos-csharp/tree/main/Testes%20Unit%C3%A1rios)                   | Projeto C# que implementa validações e testes unitários em suas classes através da extenção Solutions do VScode. | Testes Unitários xunit                                |
 | [Testes Unitários 2](https://github.com/maalcantara/projetos-csharp/tree/main/Testes%20Unit%C3%A1rios)                 | Projeto C# que implementa mais validações e testes unitários em listas de arrays e strings.                      | Testes Unitários xunit                                |
 | [Serialização](https://github.com/maalcantara/projetos-csharp/tree/main/Serializa%C3%A7%C3%A3o)                        | Código C# realiza a serialização de um objeto (classe) em formato JSON para a sua exportação.                    | Nuget, Serialização, Atributos e Null Type            |
-| [Tipos Especiais]()                                                                                                    | Código C# com tipos especiais de variáveis e como declará-las e instanciá-las.                                   | Null, Anonymous, Dynamic, Generic e Extension Methods |
+| [Tipos de Memória](https://github.com/maalcantara/projetos-csharp/tree/main/Tipos%20de%20Mem%C3%B3ria)                 | Documentação com os tipos de memória do C# e como são alocados.                                                  | Stack, Heap e Garbage Collector                       |
+| [Tipos Especiais](https://github.com/maalcantara/projetos-csharp/tree/main/Tipos%20Especiais)                          | Código C# com tipos especiais de variáveis e como declará-las e instanciá-las.                                   | Null, Anonymous, Dynamic, Generic e Extension Methods |
 
 ##
 
