@@ -14,7 +14,6 @@ precoPorHora = Convert.ToDecimal(Console.ReadLine());
 
 Estacionamento park = new Estacionamento(precoInicial, precoPorHora);
 
-string opcao = string.Empty;
 bool exibirMenu = true;
 
 // loop pra exibir o menu de opções
