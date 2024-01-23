@@ -1,11 +1,21 @@
-## Contexto
+# Banco de Dados Relacional com SQL Server
 
-Você é responsável pelo banco de dados de um site de filmes, onde são armazenados dados sobre os filmes e seus atores. Sendo assim, foi solicitado para que você realize uma consulta no banco de dados com o objetivo de trazer alguns dados para análises.
+Um **Banco de Dados** é uma coleção organizada de informações estruturadas armazenadas em algum local.
 
-## Proposta
+Neste programa é implementado um Banco de Dados **Relacional**, que é o tipo mais usado atualmente, armazenando dados estruturados, sendo organizado em tabelas com colunas e linhas que se _relacionam entre si_.
+
+### DBMS - Database Menagement System ⚙️
+
+É um software utilizado para acessar, manipular e monitorar um sistema de banco de dados. É a maneira visual de manipular o banco de dados, pois ele sozinho é só um serviço. ⇒ Como se fosse uma IDE para acessar o banco de dados.
+
+**Database:** é uma coleção de dados estruturados, agrupados de forma concisa. É composto de tabelas, procedures, views, etc. ⇒ É o banco de dados com tabelas separadas por contextos.
+
+## Programa 🗂️
+
+Este é o banco de dados de um site de filmes, onde são armazenados dados sobre os filmes e seus atores. Sendo assim, é realizada uma consulta no banco de dados com o objetivo de trazer alguns dados para análises.
 
 São 12 consultas realizadas no banco de dados, cada uma retornando um tipo de informação.
-O banco de dados está modelado da seguinte maneira:
+O banco de dados (database) está modelado da seguinte maneira:
 
 <p align="center"><img src="images/diagrama.png" width=400></p>
 As tabelas sao descritas conforme a seguir:
@@ -34,3 +44,5 @@ As tabelas sao descritas conforme a seguir:
 | 10. Buscar o nome do filme e o gênero                                                                            | SELECT e INNER JOIN         |
 | 11. Buscar o nome do filme e o gênero do tipo "Mistério"                                                         | SELECT, INNER JOIN e WHERE  |
 | 12. Buscar o nome do filme e os atores, trazendo o PrimeiroNome, UltimoNome e seu Papel                          | SELECT e INNER JOIN         |
+
+- Queries realizadas no DBMS **SSMS** (SQL Server Menagement Studio).
