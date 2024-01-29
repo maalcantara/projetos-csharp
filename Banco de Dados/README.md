@@ -72,7 +72,7 @@ Selecionando a tabela com ALT + F1, é possível ver as informações dessa tabe
 
 São códigos SQL que você pode salvar diretamente no banco de dados, permitindo assim reaproveitar um script comumente usado.
 
-- **Ex:** os comandos INSERT e SELECT são muito utilizados. Dessa forma, é possível gravar estes comandos em um procedure → facilitando o reaproveitamento do código.
+- **Ex:** os comandos INSERT e SELECT acabam sendo muito utilizados e repetitivos. Dessa forma, é possível gravar estes comandos em um procedure → facilitando o reaproveitamento do código.
 - Para ver os preocedures: dataBases → ExemploDB (nome do database que você gravou o procedure) → Programability → System.StoredProcedures.
 
 ## Functions 🟰
@@ -80,3 +80,32 @@ São códigos SQL que você pode salvar diretamente no banco de dados, permitind
 São códigos SQL que você pode salvar diretamente no banco de dados, semelhante a uma procedure, mas com uso específico e limitações; devem sempre ter um retorno e aceita apenas parâmetros de entrada.
 
 - Como uma função/método ⇒ aceita parâmetros de entrada e deve retornar algo.
+
+##
+
+# Bancos não Relacionais 🗄️
+
+### Mongo DB 🍃
+
+É um banco de dados orientado a documentos, cujos dados não são armazenados em tabelas → e sim guardados de maneira semi-estruturada no formato JSON.
+O Mongo DB cria e gerencia automaticamente um 'id' interno para cada novo documento da coleção, chamando de `_id`.
+
+**Diferenças entre Mongo DB e o SQL Server:**
+| SQL Server 🗄️| Mongo DB 🍃|
+|------------|----------|
+|Tabela | Coleção ou Collection|
+|Linha/Registro | Documento ou Document |
+
+###
+
+**Comandos MongoSH:**
+| Comando ☝️ | Descrição 📝 |
+|-------------|--------------|
+|db.nome_da_colecao.insertOne({JSON}) | Cria um novo documento |
+|db.nome_da_colecao.find({condição JSON}) | Faz uma busca nos documentos de acordo com a condição |
+|db.nome_da_colecao.find({}).sort({condição 1 ou -1}) | organiza em ordem crescente (1) ou decrescente (-1) |
+|db.nome_da_colecao.updateOne({condição},{$set:{JSON}}) | Atualiza um documento conforme a condição e o novo dado passado |
+|db.nome_da_colecao.DeleteOne({condição}) | Deleta um documento |
+|db.nome_da_colecao.deleteMany({condição}) | Deleta mais de um documento |
+|$lte | Menor ou igual a |
+|$set | Utilizado em conjunto do comando updateOne |
