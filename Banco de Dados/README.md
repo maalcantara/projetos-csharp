@@ -68,14 +68,14 @@ As tabelas sao descritas conforme a seguir:
 
 Selecionando a tabela com ALT + F1, é possível ver as informações dessa tabela, incluindo as constraints atribuídas à ela. Para apagá-la, é necessário copiar o nome da constraint e colar após o comando `DROP CONSTRAINT`.
 
-## Stored Procedures → Procedure
+## Stored Procedures → Procedure 🖲️
 
 São códigos SQL que você pode salvar diretamente no banco de dados, permitindo assim reaproveitar um script comumente usado.
 
 - **Ex:** os comandos INSERT e SELECT são muito utilizados. Dessa forma, é possível gravar estes comandos em um procedure → facilitando o reaproveitamento do código.
 - Para ver os preocedures: dataBases → ExemploDB (nome do database que você gravou o procedure) → Programability → System.StoredProcedures.
 
-## Functions
+## Functions 🟰
 
 São códigos SQL que você pode salvar diretamente no banco de dados, semelhante a uma procedure, mas com uso específico e limitações; devem sempre ter um retorno e aceita apenas parâmetros de entrada.
 
