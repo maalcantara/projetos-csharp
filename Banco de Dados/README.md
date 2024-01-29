@@ -46,3 +46,28 @@ As tabelas sao descritas conforme a seguir:
 | 12. Buscar o nome do filme e os atores, trazendo o PrimeiroNome, UltimoNome e seu Papel                          | SELECT e INNER JOIN         |
 
 - Queries realizadas no DBMS **SSMS** (SQL Server Menagement Studio).
+
+##
+
+# Constraints, Functions e Procedures
+
+**Constraints** são regras que devem ser seguidas para permitir uma inserção em tabela. Exemplos:
+
+| Comando 🕹️  | Descrição 📝                                                                                                             |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------ |
+| NOT NULL    | Não permite valor nulo → preenchimento obrigatório.                                                                      |
+| UNIQUE      | Valor único em toda tabela (ID)                                                                                          |
+| CHECK       | Realizar uma expressão e garantir que uma coluna atenda aquela condição antes de inserir um registro.                    |
+| DEFAULT     | Valor padrão para inserção → caso não coloque nenhum valor, é automaticamente preenchido com o valor passado no default. |
+| PRIMARY KEY | É a combinação de NOT NULL e UNIQUE, gerando uma chave primária que é um identificador único.                            |
+| FOREIGN KEY | Garante que um registro exista em outra tabela → chave estrangeira.                                                      |
+
+`selecionar a tabela na query + ALT + F1` **⇒ mostrar informações sobre a tabela.** `Ctrl + R` para tirar essa tabela.
+
+### Apagando uma constraint ❌
+
+Selecionando a tabela com ALT + F1, é possível ver as informações dessa tabela, incluindo as constraints atribuídas à ela. Para apagá-la, é necessário copiar o nome da constraint e colar após o comando `DROP CONSTRAINT`.
+
+## Stored Procedures → Procedure
+
+São códigos SQL
