@@ -70,4 +70,7 @@ Selecionando a tabela com ALT + F1, é possível ver as informações dessa tabe
 
 ## Stored Procedures → Procedure
 
-São códigos SQL
+São códigos SQL que você pode salvar diretamente no banco de dados, permitindo assim reaproveitar um script comumente usado.
+
+- **Ex:** os comandos INSERT e SELECT são muito utilizados. Dessa forma, é possível gravar estes comandos em um procedure → facilitando o reaproveitamento do código.
+- Para ver os preocedures: dataBases → ExemploDB (nome do database que você gravou o procedure) → Programability → System.StoredProcedures.
