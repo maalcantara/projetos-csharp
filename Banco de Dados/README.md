@@ -74,3 +74,9 @@ São códigos SQL que você pode salvar diretamente no banco de dados, permitind
 
 - **Ex:** os comandos INSERT e SELECT são muito utilizados. Dessa forma, é possível gravar estes comandos em um procedure → facilitando o reaproveitamento do código.
 - Para ver os preocedures: dataBases → ExemploDB (nome do database que você gravou o procedure) → Programability → System.StoredProcedures.
+
+## Functions
+
+São códigos SQL que você pode salvar diretamente no banco de dados, semelhante a uma procedure, mas com uso específico e limitações; devem sempre ter um retorno e aceita apenas parâmetros de entrada.
+
+- Como uma função/método ⇒ aceita parâmetros de entrada e deve retornar algo.
