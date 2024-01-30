@@ -109,3 +109,9 @@ O Mongo DB cria e gerencia automaticamente um 'id' interno para cada novo docume
 |db.nome_da_colecao.deleteMany({condição}) | Deleta mais de um documento |
 |$lte | Menor ou igual a |
 |$set | Utilizado em conjunto do comando updateOne |
+
+## Documentação 📄
+
+🗄️SQL Server: https://www.sqlservertutorial.net/getting-started/
+
+🍃MongoDB: https://www.mongodb.com/basics/get-started
