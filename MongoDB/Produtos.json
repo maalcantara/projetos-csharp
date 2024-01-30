@@ -1,0 +1,28 @@
+{
+  "Produtos": [
+    {
+      "Id": 1,
+      "Nome": "Camiseta",
+      "Cor": "Azul",
+      "Preco": 29.99,
+      "Tamanho": "M",
+      "Genero": "M"
+    },
+    {
+      "Id": 2,
+      "Nome": "Calça Jeans",
+      "Cor": "Preto",
+      "Preco": 59.99,
+      "Tamanho": "L",
+      "Genero": "F"
+    },
+    {
+      "Id": 3,
+      "Nome": "Tênis Esportivo",
+      "Cor": "Branco",
+      "Preco": 79.99,
+      "Tamanho": "42",
+      "Genero": "U"
+    }
+  ]
+}
