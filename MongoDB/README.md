@@ -8,7 +8,7 @@
 
 ![mongodb](images/mongodb.png)
 
-## Diferenças entre MongoDB e SQL Server
+## Diferenças de nomes entre MongoDB e SQL Server
 
 | SQL Server 🗄️  | MongoDB 🍃 |
 | -------------- | ---------- |
