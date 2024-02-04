@@ -19,3 +19,5 @@
 **Controller:** uma classe C# que agrupa as requisições http e vai disponibilizar os endpoints.
 
 ## Documentação 📄
+
+https://learn.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-7.0&tabs=visual-studio
