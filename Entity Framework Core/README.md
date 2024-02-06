@@ -16,6 +16,17 @@ Para persistir(armazenar/salvar) dados de um programa C# para um banco de dados 
 
 ⏺️ É necessario definir modelos de dados (entidades) no programa C#, as quais representam as tabelas do banco de dados. O EF cria automaticamente as consultas SQL necessárias para realizar operações **CRUD** (Create, Read, Update, Delete) no banco de dados.
 
+## Instalação do Entity Framework Core 📥
+
+🚨 **Importante instalar a ferramente para uso do EF:** comando `dotnet tool instal --global dotnet-ef` no terminal (essa intalação é fixa para poder usar em todos os projetos).
+
+- Você pode invocar a ferramenta usando o comando a seguir: `dotnet-ef`
+  A ferramenta 'dotnet-ef' (versão '8.0.1') foi instalada com êxito.
+
+📦 **Pacote Entity Framework:** `dotnet add package Microsoft.EntityFrameworkCore.Design`.
+
+📦 **Pacote SQL Server:** `dotnet add package Microsoft.EnityFrameworkCore.SqlServer`
+
 ## Exemplo de uso do Entity Framework para salvar um usuário no banco de dados:
 
 1. Defina uma entidade para representar o usuário no código C#:
@@ -30,17 +41,23 @@ public class User
 
 2. Configurar um contexto do Entity Framework que represente a conexão com o banco de dados:
 
+**Context:** uma classe que centraliza todas as informações em determinado banco de dados.
+
 ```
 publlic class MyContext : DbContext
 {
   public DbSet<User> Users { get; set; }
 
-  protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+  public MyContext(DbContext<MyContext> options) : base(options)
   {
-    optionsBuilder.UseSqlServer("string_de_conexão_sql");
+
   }
 }
 ```
+
+`DbSet<User>` porque a classe Users está sendo representada dentro de um objeto e será uma tabela no banco de dados. Assim, é uma **entidade/entity**
+
+`public MyContext(DbContext<MyContext> options) : base(options)` O Context faz a ligação com o banco de dados, primeiro ele recebe uma configuração, passa para a classe pai (DbContext) com ':' e representa uma tabela com o DbSet.
 
 3. Usar o contexto para adicionar um novo usuário ao banco de dados:
 
@@ -61,3 +78,7 @@ class Program
 ```
 
 🟣 Essa é uma maneira simplificada de usar o EF para persistir dados em um banco de dados SQL Server usando C#. É importante ajustar a string de conexão SQL de acordo com o ambiente, e configurar corretamente o Entity Framework.
+
+## Documentação 📄
+
+https://learn.microsoft.com/pt-br/ef/core/get-started/overview/install
