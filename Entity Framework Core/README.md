@@ -1,4 +1,4 @@
-# Entity Framework (EF)
+# Entity Framework (EF) 🔮
 
 **É uma Framework ORM (Object-Relational Mapping) criado para facilitar a integração com o banco de dados, mapeando tabelas e gerando comandos SQL de forma automática.**
 
