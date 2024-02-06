@@ -19,7 +19,7 @@ namespace moduloAPI.Controllers
                 Data = DateTime.Now.ToLongDateString(),
                 Hora = DateTime.Now.ToShortTimeString()
             };
-            
+
             return Ok(obj);
         }
 
@@ -27,7 +27,7 @@ namespace moduloAPI.Controllers
         public IActionResult Apresentar(string nome)
         {
             var msg = $"Olá {nome}, seja bem vindo!";
-            return Ok(new {msg});
+            return Ok(new { msg });
         }
     }
 }
