@@ -59,6 +59,8 @@ publlic class MyContext : DbContext
 
 `public MyContext(DbContext<MyContext> options) : base(options)` O Context faz a ligação com o banco de dados, primeiro ele recebe uma configuração, passa para a classe pai (DbContext) com ':' e representa uma tabela com o DbSet.
 
+**Entity (Entidade):** é uma classe no programa C# e uma tabela no Banco de Dados.
+
 3. Usar o contexto para adicionar um novo usuário ao banco de dados:
 
 ```
@@ -78,6 +80,24 @@ class Program
 ```
 
 🟣 Essa é uma maneira simplificada de usar o EF para persistir dados em um banco de dados SQL Server usando C#. É importante ajustar a string de conexão SQL de acordo com o ambiente, e configurar corretamente o Entity Framework.
+
+### appsettings.Development.json
+
+Arquivo de configuração json usado para testes e desenvolvimento.
+
+![configuração de desenvolvimento](images/appsetting.Development.png)
+
+**ConectionStrings:** é uma string de conexão do programa com um banco de dados.
+
+- **"Server=localhost\\sqlexpress** mesmo servidor/conexão do SQL Server utilizado.
+
+- **Inicial Catalog=Agenda** Banco de dados que o programa irá trabalhar.
+
+- **Integrated Security=True** utilizar a própria autêntificação.
+
+### appsettings.json
+
+Arquivo de configuração json utilizado para produção → quando vai implantar este sistema em um ambiente real.
 
 ## Documentação 📄
 
