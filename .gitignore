@@ -6,3 +6,9 @@ SistemaEstacionamento/obj/*
 testes/
 
 .vscode
+
+*.dll
+*.cache
+
+IntroducaoAPI/bin/*
+IntroducaoAPI/obj/*
