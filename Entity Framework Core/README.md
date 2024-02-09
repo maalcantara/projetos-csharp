@@ -99,6 +99,49 @@ Arquivo de configuração json usado para testes e desenvolvimento.
 
 Arquivo de configuração json utilizado para produção → quando vai implantar este sistema em um ambiente real.
 
+### appsettings.Development.json
+
+Arquivo de configuração json usado para testes e desenvolvimento do programa. → Onde irá adicionar o path do banco de dados utilizado.
+
+## Migrations 🗺️
+
+Mapeamento que o entity faz nas classes para poder transformar os dados em tabelas.
+
+`dotnet-ef migration add CriacaoTabelaContato` dado este comando, será criado a pasta _Migrations_ com três arquivos:
+
+![Pasta Migrations](images/migrations.png)
+
+- 1º - A própria Classe → gera um código automático com dois métodos:
+
+  - **Up:** pega a entidade (classe) Contato e a transforma em uma tabela. Aplica mudanças no banco de dados → **criação**
+  - **Down:** fazer rollback → deletar dados
+
+- 2º - Designer
+- 3º - Snapshot
+
+### Adicionar a Migration 🗺️
+
+No arquivo appsettings.Development.json, adicionar o path do danco de dados:
+
+![caminho do banco de dados](images/pathSQL.png)
+
+Catalog=Agenda → vai ser o nome do database.
+
+**`dotnet-ef database update`** comando para aplicar as migrações no banco de dados. → **É uma etapa crucial no processo de migraçãp de bancos de dados no EF, pois garante que a estrutura do banco de dados esteja sincronizada com o modelo de dados do app/api**.
+
+- Dar primeiro o comando `dotnet build` para compilar o programa e verificar se está tudo ok.
+
+Este comando irá adicionar o database do código no banco de dados. No meu caso, usei o SQL Server, então abri o SSMS e dei reload para atualizar e incluir a tabela.
+
+<p align="center"><img src="images/ssms.png" width="400"></p>
+
+## CRUD ✍️📖🔄️🗑️
+
+**Create, Read, Update, Delete** - as quatro operações fundamentais em sistemas de gerenciamento de banco de dados e desenvolvimento de software.
+
+- Essas operações são efetuadas em um Controller, onde são criados os **endpoints (métodos) que correspondem às operações CRUD** para disponibilizar na API, e assim é fornecida uma interface para acessar e manipular os dados através do Swagger do comando `dotnet watch run`.
+
+<p align="center"><img src="images/crud.png"></p>
 ## Documentação 📄
 
 https://learn.microsoft.com/pt-br/ef/core/get-started/overview/install
