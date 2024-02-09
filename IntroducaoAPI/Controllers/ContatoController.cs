@@ -37,6 +37,13 @@ namespace IntroducaoAPI.Controllers
 
             return Ok(contato);
         }
+        // incrementar o get -> OBTER todos os contatos
+        [HttpGet("ObterPorNome")]
+        public IActionResult ObterPorNome(string nome)
+        {
+            var contatos = _context.Contatos.Where(x => x.Nome.Contains{ nome});
+            return Ok(contatos);
+        }
 
         // endpoint de UPDATE
         [HttpPut("{id}")]
