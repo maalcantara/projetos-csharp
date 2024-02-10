@@ -20,8 +20,8 @@ Para persistir(armazenar/salvar) dados de um programa C# para um banco de dados 
 
 🚨 **Importante instalar a ferramente para uso do EF:** comando `dotnet tool instal --global dotnet-ef` no terminal (essa intalação é fixa para poder usar em todos os projetos).
 
-- Você pode invocar a ferramenta usando o comando a seguir: `dotnet-ef`
-  A ferramenta 'dotnet-ef' (versão '8.0.1') foi instalada com êxito.
+- "Você pode invocar a ferramenta usando o comando a seguir: `dotnet-ef`
+  A ferramenta 'dotnet-ef' (versão '8.0.1') foi instalada com êxito."
 
 📦 **Pacote Entity Framework:** `dotnet add package Microsoft.EntityFrameworkCore.Design`.
 
