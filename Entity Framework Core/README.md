@@ -142,6 +142,25 @@ Este comando irá adicionar o database do código no banco de dados. No meu caso
 - Essas operações são efetuadas em um Controller, onde são criados os **endpoints (métodos) que correspondem às operações CRUD** para disponibilizar na API, e assim é fornecida uma interface para acessar e manipular os dados através do Swagger do comando `dotnet watch run`.
 
 <p align="center"><img src="images/crud.png"></p>
+
+## HTTP verbs 🌐
+
+Os HTTP verbs (**métodos de requisição HTTP**) são utilizados para indicar a ação que deve ser realizada em um recurso no servidor web. Cada método de requisição http tem um objetivo espeífico:
+
+<p align="center"><img src="images/httpMethods.png" width="300"></p>
+
+- **POST:** CRIAR - usado para enviar dados para o servidor para criar um novo recurso.
+- **GET:** LER - usado para solicitar a representação de um recurso.
+- **PUT:** ATUALIZAR - atualiza os dados de um recurso.
+- **DELETE:** DELETAR - remove um recurso específico do servidor.
+- **PATCH:** aplicar modificações parciais a um recurso.
+
+🔵 No contexto de requisições http, um **recurso** é uma entidade ou um objeto identificável em um servidor web que pode ser manipulado por meio dos métodos http.
+
+Esses recursos podem ser diversos, como páginas da web, imagens, arquivos, dados de usuário, registros de banco de dados, entre outros → Cada recurso possui um identificador único (id).
+
+<p align="center"><img src="images/httpMethods2.png" width="500"></p>
+
 ## Documentação 📄
 
 https://learn.microsoft.com/pt-br/ef/core/get-started/overview/install
