@@ -41,22 +41,21 @@ namespace IntroducaoAPI.Controllers
         [HttpGet("ObterPorNome")]
         public IActionResult ObterPorNome(string nome)
         {
-            var contatos = _context.Contatos.Where(x => x.Nome.Contains{ nome});
+            var contatos = _context.Contatos.Where(x => x.Nome.Contains(nome));
             return Ok(contatos);
         }
 
         // endpoint de UPDATE
         [HttpPut("{id}")]
-        public IActionResult Atualizar(int id, ContatoController contato)
+        public IActionResult Atualizar(int id, Contato contato)
         {
-            var contatoBanco = _context.Contatos.Finf(id);
+        var contatoBanco = _context.Contatos.Find(id);
 
-            if (contatoBanco == null)
-                return NotFound();
-
+        if (contatoBanco == null)
+        return NotFound();
             contatoBanco.Nome = contato.Nome;
             contatoBanco.Telefone = contato.Telefone;
-            contatoBanco.Ativo = contato.ativo;
+            contatoBanco.Ativo = contato.Ativo;
 
             _context.Contatos.Update(contatoBanco);
             _context.SaveChanges();
@@ -64,19 +63,18 @@ namespace IntroducaoAPI.Controllers
             return Ok(contatoBanco);
         }
 
-        // endpoint de DELETE
         [HttpDelete("{id}")]
-        public IActionResult Deletar(ind id)
+        public IActionResult Deletar(int id)
         {
-            var contatoBanco = _context.Contatos.Find(id)
+            var contatoBanco = _context.Contatos.Find(id);
 
             if (contatoBanco == null)
-                return NotFund();
+                return NotFound();
 
             _context.Contatos.Remove(contatoBanco);
             _context.SaveChanges();
 
-            return NoContenet();
+            return NoContent();
         }
     }
 }
