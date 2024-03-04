@@ -1,0 +1,56 @@
+@model IEnumerable<MVC.Models.Contato>
+
+@{
+  ViewData["Title"] = "Contatos";
+}
+
+<h2>Contatos ☎️</h2>
+
+<br>
+<p>
+  <a style="color: black;background-color: rgb(203, 223, 193); text-decoration: none; " asp-action="Criar">➕ Novo
+    Contato</a>
+</p>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.Id)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Nome)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Telefone)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Ativo)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in Model)
+    {
+      <tr>
+        <td>
+          @Html.DisplayFor(model => item.Id)
+        </td>
+        <td>
+          @Html.DisplayFor(model => item.Nome)
+        </td>
+        <td>
+          @Html.DisplayFor(model => item.Telefone)
+        </td>
+        <td>
+          @Html.DisplayFor(model => item.Ativo)
+        </td>
+        <td>
+          <a asp-action="Editar" asp-route-id="@item.Id">Editar</a> |
+          <a asp-action="Detalhes" asp-route-id="@item.Id">Detalhes</a> |
+          <a asp-action="Deletar" asp-route-id="@item.Id">Deletar</a>
+        </td>
+      </tr>
+    }
+  </tbody>
+</table>
