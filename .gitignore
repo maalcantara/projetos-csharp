@@ -5,7 +5,7 @@ SistemaEstacionamento/obj/*
 
 testes/
 
-.IntroducaoAPI2
+IntroducaoAPI2/
 .vscode
 
 *.dll
@@ -13,3 +13,6 @@ testes/
 
 IntroducaoAPI/bin/*
 IntroducaoAPI/obj/*
+
+MVC/bin/*
+MVC/obj/*
