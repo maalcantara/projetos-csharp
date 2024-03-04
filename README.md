@@ -22,8 +22,9 @@
 | [Tipos Especiais](https://github.com/maalcantara/projetos-csharp/tree/main/Tipos%20Especiais)                          | Código C# com tipos especiais de variáveis e como declará-las e instanciá-las.                                   | Null, Anonymous, Dynamic, Generic e Extension Methods |
 | [Banco de Dados](https://github.com/maalcantara/projetos-csharp/tree/main/Banco%20de%20Dados)                          | Implementação de uma database do SQL Server e queries no SSMS.                                                   | Query e SQL                                           |
 | [MongoDB](https://github.com/maalcantara/projetos-csharp/tree/main/MongoDB)                                            | Informações e comandos do banco de dados não relacional mongodb.                                                 | Query e MongoDB                                       |
-| [Intodução API](https://github.com/maalcantara/projetos-csharp/tree/main/IntroducaoAPI)                                | Conceitos de API em C# e como instaciá-la.                                                                       | WebAPI, Entity Framework, Context, Controller     |
-| [Entity Framework Core](https://github.com/maalcantara/projetos-csharp/tree/main/Entity%20Framework%20Core)            | Conceitos de como integrar dados de uma API em um Banco de Dados.                                                | Entity, CRUD, ASP.NET                                     |
+| [Intodução API](https://github.com/maalcantara/projetos-csharp/tree/main/IntroducaoAPI)                                | Conceitos de API em C# e como instaciá-la.                                                                       | WebAPI, Entity Framework, Context, Controller         |
+| [Entity Framework Core](https://github.com/maalcantara/projetos-csharp/tree/main/Entity%20Framework%20Core)            | Conceitos de como integrar dados de uma API em um Banco de Dados.                                                | Entity, CRUD, ASP.NET                                 |
+| [MVC](https://github.com/maalcantara/projetos-csharp/tree/main/MVC)                                                    | Projeto de uma API de uma Agenda de Contatos com front-end feito com arquitetura MVC.                            | Entity, MVC, ASP.NET                                  |
 
 ##
 
